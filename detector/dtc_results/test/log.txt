@@ -1,0 +1,1785 @@
+2019-08-14 09:41:10,009:INFO: Initializing ELMo
+2019-08-14 10:03:05,753:INFO: Initializing ELMo
+2019-08-14 10:03:55,355:INFO: Initializing ELMo
+2019-08-14 10:06:34,587:INFO: Initializing ELMo
+2019-08-14 10:08:07,018:INFO: Initializing ELMo
+2019-08-14 10:10:05,317:INFO: Initializing ELMo
+2019-08-14 10:11:55,453:INFO: Initializing ELMo
+2019-08-14 14:35:41,367:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 14:35:41,410:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:127: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 14:35:41,522:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 14:35:41,527:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:140: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 14:35:41,529:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 14:35:41,840:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 14:36:56,921:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 14:36:56,931:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:127: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 14:36:56,955:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 14:37:34,994:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:140: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 14:37:34,997:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 14:37:35,095:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 14:43:41,048:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 14:43:41,058:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:127: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 14:43:41,089:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 14:44:21,256:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:140: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 14:44:21,259:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 14:44:21,369:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 14:45:22,719:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 14:45:22,727:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:127: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 14:45:22,758:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 14:46:27,763:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 14:46:28,634:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:127: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 14:46:28,664:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 14:46:45,777:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 14:49:15,849:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 14:49:35,434:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:123: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 14:49:40,202:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:132: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 14:49:42,620:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 14:49:42,623:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 14:49:42,663:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 14:50:10,886:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:225: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 14:50:31,379:INFO: Initializing tf session
+2019-08-14 14:53:22,673:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 14:53:22,683:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:123: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 14:53:22,706:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:132: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 14:53:22,707:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 14:53:22,708:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 14:53:22,723:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 14:53:24,432:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:225: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 14:53:28,183:INFO: Initializing tf session
+2019-08-14 14:53:59,946:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 14:53:59,956:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:123: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 14:53:59,977:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:132: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 14:53:59,979:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 14:53:59,980:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 14:53:59,993:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 14:54:01,467:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:225: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 14:54:04,892:INFO: Initializing tf session
+2019-08-14 14:54:12,278:INFO: Initializing ELMo
+2019-08-14 14:55:13,970:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 14:55:13,980:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:123: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 14:55:14,003:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:132: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 14:55:14,005:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 14:55:14,006:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 14:55:14,021:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 14:55:15,570:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:225: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 14:55:18,942:INFO: Initializing tf session
+2019-08-14 14:55:22,089:INFO: Initializing ELMo
+2019-08-14 15:00:25,857:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 15:00:25,865:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:123: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 15:00:25,896:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:132: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 15:00:25,900:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 15:00:25,901:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 15:00:25,923:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 15:00:27,478:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:225: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 15:00:31,078:INFO: Initializing tf session
+2019-08-14 15:01:25,078:INFO: Initializing ELMo
+2019-08-14 15:02:28,543:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 15:02:28,552:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:123: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 15:02:28,578:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:132: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 15:02:28,580:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 15:02:28,581:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 15:02:28,593:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 15:02:29,940:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:225: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 15:02:33,115:INFO: Initializing tf session
+2019-08-14 15:04:27,535:INFO: Initializing ELMo
+2019-08-14 15:07:43,402:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 15:07:43,411:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:123: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 15:07:43,432:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:132: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 15:07:43,433:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 15:07:43,434:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 15:07:43,447:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 15:07:44,782:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:225: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 15:07:47,942:INFO: Initializing tf session
+2019-08-14 15:07:51,131:INFO: Initializing ELMo
+2019-08-14 15:11:17,542:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 15:11:17,550:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:123: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 15:11:17,571:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:132: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 15:11:17,572:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 15:11:17,573:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 15:11:17,585:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 15:11:18,921:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:225: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 15:11:22,062:INFO: Initializing tf session
+2019-08-14 15:11:23,163:INFO: Initializing ELMo
+2019-08-14 15:11:31,996:INFO: Initializing ELMo
+2019-08-14 15:11:48,661:INFO: Epoch 1 out of 100
+2019-08-14 15:13:33,675:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 15:13:33,739:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:123: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 15:13:33,925:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:132: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 15:13:33,936:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 15:13:33,942:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 15:13:34,040:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 15:13:44,003:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:225: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 15:14:09,555:INFO: Initializing tf session
+2019-08-14 15:14:11,555:INFO: Initializing ELMo
+2019-08-14 15:14:18,470:INFO: Initializing ELMo
+2019-08-14 15:14:39,467:INFO: Epoch 1 out of 100
+2019-08-14 15:23:27,636:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 15:23:27,646:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:124: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 15:23:27,667:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:133: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 15:23:27,668:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:137: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 15:23:27,669:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 15:23:27,681:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 15:23:29,008:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:226: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 15:23:32,155:INFO: Initializing tf session
+2019-08-14 15:23:33,218:INFO: Initializing ELMo
+2019-08-14 15:37:16,668:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 15:37:16,727:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:124: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 15:37:16,948:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:133: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 15:37:16,961:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:137: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 15:37:16,968:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 15:37:17,079:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 15:37:29,037:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:226: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 15:37:56,050:INFO: Initializing tf session
+2019-08-14 15:37:57,981:INFO: Initializing ELMo
+2019-08-14 15:38:38,534:INFO: Initializing ELMo
+2019-08-14 15:39:05,018:INFO: Epoch 1 out of 100
+2019-08-14 15:40:19,495:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 15:40:19,504:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:123: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 15:40:19,524:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:132: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 15:40:19,525:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 15:40:19,526:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 15:40:19,542:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 15:40:21,144:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:225: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 15:40:25,214:INFO: Initializing tf session
+2019-08-14 15:40:26,398:INFO: Initializing ELMo
+2019-08-14 15:40:33,413:INFO: Initializing ELMo
+2019-08-14 15:41:06,182:INFO: Epoch 1 out of 100
+2019-08-14 15:42:34,158:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 15:42:34,171:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:123: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 15:42:34,191:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:132: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 15:42:34,193:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:136: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 15:42:34,194:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 15:42:34,206:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 15:42:35,551:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:225: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 15:42:38,682:INFO: Initializing tf session
+2019-08-14 15:42:39,754:INFO: Initializing ELMo
+2019-08-14 15:42:45,146:INFO: Initializing ELMo
+2019-08-14 15:42:54,519:INFO: Epoch 1 out of 100
+2019-08-14 15:44:53,342:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 15:44:53,353:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:122: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 15:44:53,383:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:131: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 15:44:53,385:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:135: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 15:44:53,386:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 15:44:53,401:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 15:44:55,010:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:224: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 15:44:58,693:INFO: Initializing tf session
+2019-08-14 15:44:59,863:INFO: Initializing ELMo
+2019-08-14 15:45:05,886:INFO: Initializing ELMo
+2019-08-14 15:45:51,544:INFO: Epoch 1 out of 100
+2019-08-14 16:01:15,732:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 16:01:15,791:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:122: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 16:01:15,948:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:131: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 16:01:15,960:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:135: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 16:01:15,971:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 16:01:16,062:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 16:01:25,451:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:224: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 16:01:49,547:INFO: Initializing tf session
+2019-08-14 16:01:51,394:INFO: Initializing ELMo
+2019-08-14 16:01:58,568:INFO: Initializing ELMo
+2019-08-14 16:02:19,253:INFO: Epoch 1 out of 100
+2019-08-14 16:03:14,067:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 16:03:14,076:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:122: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 16:03:14,107:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:131: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 16:03:14,109:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:135: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 16:03:14,110:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 16:03:14,123:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 16:03:15,713:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:224: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 16:03:18,914:INFO: Initializing tf session
+2019-08-14 16:03:20,026:INFO: Initializing ELMo
+2019-08-14 16:03:25,360:INFO: Initializing ELMo
+2019-08-14 16:10:23,021:INFO: Epoch 1 out of 100
+2019-08-14 16:21:21,693:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 16:21:21,702:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:122: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 16:21:21,728:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:131: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 16:21:21,730:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:135: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 16:21:21,731:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 16:21:21,744:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 16:21:23,203:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:224: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 16:21:26,724:INFO: Initializing tf session
+2019-08-14 16:21:27,902:INFO: Initializing ELMo
+2019-08-14 16:21:33,697:INFO: Initializing ELMo
+2019-08-14 16:22:51,492:INFO: Epoch 1 out of 100
+2019-08-14 16:24:45,610:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 16:24:45,619:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:122: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 16:24:45,639:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:131: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 16:24:45,641:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:135: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 16:24:45,641:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 16:24:45,653:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 16:24:47,028:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:224: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 16:24:50,262:INFO: Initializing tf session
+2019-08-14 16:24:51,356:INFO: Initializing ELMo
+2019-08-14 16:24:56,831:INFO: Initializing ELMo
+2019-08-14 16:25:02,979:INFO: Epoch 1 out of 100
+2019-08-14 16:32:55,656:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 16:32:55,664:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:122: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 16:32:55,684:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:131: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 16:32:55,685:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:135: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 16:32:55,686:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 16:32:55,698:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 16:32:57,039:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:224: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 16:33:00,204:INFO: Initializing tf session
+2019-08-14 16:33:01,282:INFO: Initializing ELMo
+2019-08-14 16:33:06,656:INFO: Initializing ELMo
+2019-08-14 16:33:12,485:INFO: Epoch 1 out of 100
+2019-08-14 16:35:35,536:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 16:35:35,545:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:122: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 16:35:35,565:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:131: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 16:35:35,566:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:135: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 16:35:35,567:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 16:35:35,579:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 16:35:36,899:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:224: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 16:35:40,154:INFO: Initializing tf session
+2019-08-14 16:35:41,267:INFO: Initializing ELMo
+2019-08-14 16:35:46,628:INFO: Initializing ELMo
+2019-08-14 16:35:52,707:INFO: Epoch 1 out of 100
+2019-08-14 16:47:03,782:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 16:47:03,791:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:122: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 16:47:03,812:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:131: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 16:47:03,813:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:135: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 16:47:03,814:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 16:47:03,826:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 16:47:05,309:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:224: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 16:47:08,815:INFO: Initializing tf session
+2019-08-14 16:47:09,936:INFO: Initializing ELMo
+2019-08-14 16:47:15,419:INFO: Initializing ELMo
+2019-08-14 16:47:22,086:INFO: Epoch 1 out of 100
+2019-08-14 16:49:11,740:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 16:49:11,749:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:122: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 16:49:11,769:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:131: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 16:49:11,770:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:135: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 16:49:11,771:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 16:49:11,784:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 16:49:13,097:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:224: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 16:49:16,231:INFO: Initializing tf session
+2019-08-14 16:49:17,137:INFO: Initializing ELMo
+2019-08-14 16:49:22,600:INFO: Initializing ELMo
+2019-08-14 16:49:28,589:INFO: Epoch 1 out of 100
+2019-08-14 16:50:28,944:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 16:50:28,948:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:122: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 16:50:28,958:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:131: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 16:50:28,958:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:135: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 16:50:28,959:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 16:50:28,965:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 16:50:29,734:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:224: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 16:50:31,024:INFO: Initializing tf session
+2019-08-14 16:50:31,846:INFO: Initializing ELMo
+2019-08-14 16:50:37,710:INFO: Initializing ELMo
+2019-08-14 16:50:43,698:INFO: Epoch 1 out of 100
+2019-08-14 16:50:52,931:INFO: precision 13.39 - recall 100.00 - acc 95.51 - f1 23.61
+2019-08-14 16:50:54,359:INFO: - new best score!
+2019-08-14 16:50:54,360:INFO: Epoch 2 out of 100
+2019-08-14 16:50:57,326:INFO: precision 68.00 - recall 100.00 - acc 99.67 - f1 80.95
+2019-08-14 16:50:58,680:INFO: - new best score!
+2019-08-14 16:50:58,680:INFO: Epoch 3 out of 100
+2019-08-14 16:51:01,596:INFO: precision 25.00 - recall 100.00 - acc 97.92 - f1 40.00
+2019-08-14 16:51:01,597:INFO: Epoch 4 out of 100
+2019-08-14 16:51:04,232:INFO: precision 66.67 - recall 100.00 - acc 99.65 - f1 80.00
+2019-08-14 16:51:04,232:INFO: Epoch 5 out of 100
+2019-08-14 16:51:06,897:INFO: precision 100.00 - recall 100.00 - acc 100.00 - f1 100.00
+2019-08-14 16:51:08,179:INFO: - new best score!
+2019-08-14 16:51:08,179:INFO: Epoch 6 out of 100
+2019-08-14 16:51:10,936:INFO: precision 40.96 - recall 100.00 - acc 99.00 - f1 58.12
+2019-08-14 16:51:10,937:INFO: Epoch 7 out of 100
+2019-08-14 16:51:13,618:INFO: precision 28.57 - recall 100.00 - acc 98.26 - f1 44.44
+2019-08-14 16:51:13,619:INFO: Epoch 8 out of 100
+2019-08-14 16:51:16,277:INFO: precision 100.00 - recall 100.00 - acc 100.00 - f1 100.00
+2019-08-14 16:51:17,370:INFO: - new best score!
+2019-08-14 16:51:17,371:INFO: Epoch 9 out of 100
+2019-08-14 16:51:20,255:INFO: precision 100.00 - recall 100.00 - acc 100.00 - f1 100.00
+2019-08-14 16:51:21,287:INFO: - new best score!
+2019-08-14 16:51:21,287:INFO: Epoch 10 out of 100
+2019-08-14 17:06:32,321:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 17:06:32,329:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 17:06:32,349:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 17:06:32,351:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 17:06:32,352:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 17:06:32,425:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 17:06:33,638:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 17:06:36,686:INFO: Initializing tf session
+2019-08-14 17:06:37,612:INFO: Reloading the latest trained model...
+2019-08-14 17:06:37,612:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-14 17:06:37,660:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-14 17:06:37,941:INFO: Initializing ELMo
+2019-08-14 17:07:13,220:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 17:07:13,228:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 17:07:13,249:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 17:07:13,251:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 17:07:13,252:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 17:07:13,325:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 17:07:14,549:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 17:07:17,822:INFO: Initializing tf session
+2019-08-14 17:07:18,706:INFO: Reloading the latest trained model...
+2019-08-14 17:07:18,706:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-14 17:07:18,709:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-14 17:07:32,511:INFO: Initializing ELMo
+2019-08-14 17:07:45,808:INFO: Testing model over test set
+2019-08-14 17:51:56,209:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-14 17:51:56,213:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-14 17:51:56,221:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-14 17:51:56,222:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-14 17:51:56,222:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-14 17:51:56,228:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-14 17:51:56,870:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-14 17:51:58,224:INFO: Initializing tf session
+2019-08-14 17:51:59,044:INFO: Reloading the latest trained model...
+2019-08-14 17:51:59,044:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-14 17:51:59,047:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-14 17:51:59,299:INFO: Initializing ELMo
+2019-08-14 17:52:04,692:INFO: Initializing ELMo
+2019-08-15 10:16:39,619:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 10:16:39,683:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 10:16:39,824:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 10:16:39,844:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 10:16:39,850:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 10:16:39,917:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 10:16:48,828:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 10:17:10,855:INFO: Initializing tf session
+2019-08-15 10:17:12,429:INFO: Reloading the latest trained model...
+2019-08-15 10:17:12,430:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 10:17:12,476:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 10:17:13,426:INFO: Initializing ELMo
+2019-08-15 10:17:23,609:INFO: Initializing ELMo
+2019-08-15 10:34:49,740:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 10:34:49,756:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 10:34:49,771:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 10:34:49,771:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 10:34:49,771:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 10:34:49,787:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 10:34:51,006:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 10:34:53,930:INFO: Initializing tf session
+2019-08-15 10:34:54,821:INFO: Reloading the latest trained model...
+2019-08-15 10:34:54,822:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 10:34:54,825:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 10:34:55,075:INFO: Initializing ELMo
+2019-08-15 10:35:00,229:INFO: Initializing ELMo
+2019-08-15 10:48:27,785:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 10:48:27,801:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 10:48:27,830:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 10:48:27,833:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 10:48:27,835:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 10:48:27,844:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 10:48:29,140:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 10:48:32,020:INFO: Initializing tf session
+2019-08-15 10:48:32,896:INFO: Reloading the latest trained model...
+2019-08-15 10:48:32,897:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 10:48:32,900:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 10:48:33,145:INFO: Initializing ELMo
+2019-08-15 10:48:38,474:INFO: Initializing ELMo
+2019-08-15 10:52:25,365:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 10:52:25,382:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 10:52:25,401:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 10:52:25,401:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 10:52:25,401:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 10:52:25,401:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 10:52:26,693:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 10:52:30,661:INFO: Initializing tf session
+2019-08-15 10:52:31,587:INFO: Reloading the latest trained model...
+2019-08-15 10:52:31,588:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 10:52:31,591:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 10:52:31,906:INFO: Initializing ELMo
+2019-08-15 10:52:38,417:INFO: Initializing ELMo
+2019-08-15 11:05:38,373:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 11:05:38,389:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 11:05:38,404:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 11:05:38,404:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 11:05:38,404:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 11:05:38,421:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 11:05:39,791:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 11:05:43,069:INFO: Initializing tf session
+2019-08-15 11:05:43,976:INFO: Reloading the latest trained model...
+2019-08-15 11:05:43,976:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 11:05:43,981:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 11:05:44,252:INFO: Initializing ELMo
+2019-08-15 11:05:49,753:INFO: Initializing ELMo
+2019-08-15 11:07:17,907:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 11:07:17,907:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 11:07:17,938:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 11:07:17,938:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 11:07:17,938:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 11:07:17,938:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 11:07:19,113:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 11:07:21,858:INFO: Initializing tf session
+2019-08-15 11:07:22,727:INFO: Reloading the latest trained model...
+2019-08-15 11:07:22,727:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 11:07:22,730:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 11:07:22,977:INFO: Initializing ELMo
+2019-08-15 11:07:28,191:INFO: Initializing ELMo
+2019-08-15 11:09:25,656:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 11:09:25,656:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 11:09:25,688:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 11:09:25,688:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 11:09:25,688:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 11:09:25,706:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 11:09:27,722:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 11:09:31,082:INFO: Initializing tf session
+2019-08-15 11:09:32,035:INFO: Reloading the latest trained model...
+2019-08-15 11:09:32,035:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 11:09:32,044:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 11:09:32,291:INFO: Initializing ELMo
+2019-08-15 11:09:37,822:INFO: Initializing ELMo
+2019-08-15 14:30:54,012:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 14:30:54,019:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 14:30:54,041:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 14:30:54,043:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 14:30:54,044:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 14:30:54,058:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 14:30:55,739:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 14:31:04,131:INFO: Initializing tf session
+2019-08-15 14:31:05,621:INFO: Reloading the latest trained model...
+2019-08-15 14:31:05,621:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 14:31:05,621:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 14:31:05,879:INFO: Initializing ELMo
+2019-08-15 14:31:12,421:INFO: Initializing ELMo
+2019-08-15 14:36:05,180:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 14:36:05,188:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 14:36:05,208:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 14:36:05,210:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 14:36:05,211:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 14:36:05,223:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 14:36:06,503:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 14:36:09,453:INFO: Initializing tf session
+2019-08-15 14:36:10,337:INFO: Reloading the latest trained model...
+2019-08-15 14:36:10,337:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 14:36:10,340:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 14:36:10,586:INFO: Initializing ELMo
+2019-08-15 14:36:15,891:INFO: Initializing ELMo
+2019-08-15 14:38:00,215:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 14:38:00,215:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 14:38:00,244:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 14:38:00,246:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 14:38:00,246:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 14:38:00,258:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 14:38:01,525:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 14:38:04,530:INFO: Initializing tf session
+2019-08-15 14:38:05,409:INFO: Reloading the latest trained model...
+2019-08-15 14:38:05,409:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 14:38:05,412:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 14:38:05,663:INFO: Initializing ELMo
+2019-08-15 14:38:10,897:INFO: Initializing ELMo
+2019-08-15 14:43:02,372:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 14:43:02,380:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 14:43:02,399:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 14:43:02,401:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 14:43:02,402:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 14:43:02,414:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 14:43:03,661:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 14:43:06,481:INFO: Initializing tf session
+2019-08-15 14:43:07,352:INFO: Reloading the latest trained model...
+2019-08-15 14:43:07,353:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 14:43:07,356:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 14:43:07,607:INFO: Initializing ELMo
+2019-08-15 14:43:12,881:INFO: Initializing ELMo
+2019-08-15 15:28:56,587:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 15:28:56,591:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 15:28:56,601:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 15:28:56,601:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 15:28:56,602:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 15:28:56,608:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 15:28:57,387:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 15:28:58,800:INFO: Initializing tf session
+2019-08-15 15:28:59,618:INFO: Reloading the latest trained model...
+2019-08-15 15:28:59,618:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 15:28:59,621:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 15:28:59,886:INFO: Initializing ELMo
+2019-08-15 15:29:05,342:INFO: Initializing ELMo
+2019-08-15 15:29:29,264:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 15:29:29,268:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 15:29:29,277:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 15:29:29,277:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 15:29:29,278:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 15:29:29,283:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 15:29:29,947:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 15:29:31,206:INFO: Initializing tf session
+2019-08-15 15:29:32,002:INFO: Reloading the latest trained model...
+2019-08-15 15:29:32,002:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 15:29:32,004:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 15:29:32,253:INFO: Initializing ELMo
+2019-08-15 15:29:37,766:INFO: Initializing ELMo
+2019-08-15 15:47:38,625:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 15:47:38,634:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 15:47:38,652:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 15:47:38,654:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 15:47:38,655:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 15:47:38,666:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 15:47:40,080:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 15:47:43,308:INFO: Initializing tf session
+2019-08-15 15:47:44,210:INFO: Reloading the latest trained model...
+2019-08-15 15:47:44,211:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 15:47:44,214:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 15:47:44,486:INFO: Initializing ELMo
+2019-08-15 15:47:50,081:INFO: Initializing ELMo
+2019-08-15 15:49:28,402:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 15:49:28,410:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 15:49:28,429:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 15:49:28,430:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 15:49:28,431:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 15:49:28,445:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 15:49:29,664:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 15:49:32,589:INFO: Initializing tf session
+2019-08-15 15:49:33,507:INFO: Reloading the latest trained model...
+2019-08-15 15:49:33,507:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 15:49:33,510:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 15:49:33,761:INFO: Initializing ELMo
+2019-08-15 15:49:38,900:INFO: Initializing ELMo
+2019-08-15 16:22:05,429:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 16:22:05,437:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 16:22:05,457:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 16:22:23,773:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 16:22:23,776:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 16:22:23,808:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 16:23:40,904:WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+2019-08-15 16:23:40,927:WARNING: Tensor._shape is private, use Tensor.shape instead. Tensor._shape will eventually be removed.
+2019-08-15 16:41:23,605:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 16:41:23,614:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 16:41:23,638:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 16:41:25,704:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 16:41:25,705:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 16:41:25,778:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 16:41:26,997:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 16:41:29,959:INFO: Initializing tf session
+2019-08-15 16:41:30,828:INFO: Initializing ELMo
+2019-08-15 16:41:36,285:INFO: Initializing ELMo
+2019-08-15 16:41:42,080:INFO: Epoch 1 out of 100
+2019-08-15 16:51:31,550:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 16:51:31,554:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 16:51:31,567:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 16:51:31,567:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 16:51:31,568:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 16:51:31,577:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 16:51:32,261:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 16:51:33,825:INFO: Initializing tf session
+2019-08-15 16:51:34,632:INFO: Reloading the latest trained model...
+2019-08-15 16:51:34,632:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 16:51:34,635:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 16:51:34,903:INFO: Initializing ELMo
+2019-08-15 16:51:40,251:INFO: Initializing ELMo
+2019-08-15 16:53:30,874:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 16:53:30,882:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 16:53:30,902:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 16:53:35,323:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 16:53:35,324:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 16:53:35,337:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 16:53:36,747:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 16:53:40,054:INFO: Initializing tf session
+2019-08-15 16:53:40,919:INFO: Reloading the latest trained model...
+2019-08-15 16:53:40,919:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-08-15 16:53:40,922:INFO: Restoring parameters from results/test/model.weights/df_run_name/
+2019-08-15 16:53:41,170:INFO: Initializing ELMo
+2019-08-15 16:53:46,406:INFO: Initializing ELMo
+2019-08-15 17:09:16,111:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-15 17:09:16,115:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-15 17:09:16,123:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-15 17:09:16,124:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-15 17:09:16,125:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-15 17:09:16,130:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-15 17:09:16,734:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-15 17:09:18,031:INFO: Initializing tf session
+2019-08-15 17:09:18,834:INFO: Initializing ELMo
+2019-08-16 15:47:16,973:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-16 15:47:16,999:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-16 15:47:17,058:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-16 15:47:17,058:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-16 15:47:17,059:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-16 15:47:17,277:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-16 15:47:17,981:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-16 15:47:19,470:INFO: Initializing tf session
+2019-08-16 15:47:20,889:INFO: Initializing ELMo
+2019-08-16 15:47:50,093:INFO: Initializing ELMo
+2019-08-16 15:48:54,300:INFO: Epoch 1 out of 100
+2019-08-16 15:59:33,829:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-16 15:59:33,835:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-16 15:59:33,846:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-16 15:59:33,846:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-16 15:59:33,847:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-16 15:59:33,853:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-16 15:59:34,657:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-16 15:59:36,179:INFO: Initializing tf session
+2019-08-16 15:59:37,057:INFO: Initializing ELMo
+2019-08-16 16:00:01,768:INFO: Initializing ELMo
+2019-08-16 16:01:09,249:INFO: Epoch 1 out of 100
+2019-08-16 16:04:11,021:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-16 16:04:11,033:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-16 16:04:11,069:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-16 16:04:11,072:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-16 16:04:11,073:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-16 16:04:11,099:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-16 16:04:12,551:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-16 16:04:15,918:INFO: Initializing tf session
+2019-08-16 16:04:16,791:INFO: Initializing ELMo
+2019-08-16 16:04:42,197:INFO: Initializing ELMo
+2019-08-16 16:05:57,249:INFO: Epoch 1 out of 100
+2019-08-16 16:34:13,931:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-16 16:34:13,940:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-16 16:34:13,960:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-16 16:34:13,961:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-16 16:34:13,962:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-16 16:34:13,976:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-16 16:34:15,567:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-16 16:34:19,276:INFO: Initializing tf session
+2019-08-16 16:34:20,192:INFO: Initializing ELMo
+2019-08-16 16:34:46,458:INFO: Initializing ELMo
+2019-08-16 16:37:16,203:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-16 16:37:16,211:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-16 16:37:16,231:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-16 16:37:16,233:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-16 16:37:16,234:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-16 16:37:16,246:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-16 16:37:17,513:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-16 16:37:20,480:INFO: Initializing tf session
+2019-08-16 16:37:20,972:INFO: Initializing ELMo
+2019-08-16 16:37:47,401:INFO: Initializing ELMo
+2019-08-16 16:38:56,788:INFO: Epoch 1 out of 100
+2019-08-16 17:14:58,001:INFO: precision 1.98 - recall 26.58 - acc 92.06 - f1 3.68
+2019-08-16 17:14:59,633:INFO: - new best score!
+2019-08-16 17:14:59,635:INFO: Epoch 2 out of 100
+2019-08-16 17:18:38,922:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-16 17:18:38,932:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-16 17:18:38,956:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-16 17:18:38,958:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-16 17:18:38,959:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-16 17:18:38,973:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-16 17:24:54,969:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-16 17:24:58,817:INFO: Initializing tf session
+2019-08-16 17:24:59,477:INFO: Initializing ELMo
+2019-08-16 17:25:27,501:INFO: Initializing ELMo
+2019-08-16 17:26:32,774:INFO: Epoch 1 out of 100
+2019-08-16 17:33:39,530:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-16 17:33:39,534:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-16 17:33:39,543:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-16 17:33:39,544:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-16 17:33:39,544:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-16 17:33:39,550:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-16 17:33:40,182:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-16 17:33:41,449:INFO: Initializing tf session
+2019-08-16 17:33:41,889:INFO: Initializing ELMo
+2019-08-16 17:34:02,167:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-08-16 17:34:02,175:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:108: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-08-16 17:34:02,195:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:117: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-08-16 17:34:02,197:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-08-16 17:34:02,198:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-08-16 17:34:02,210:WARNING: From C:\Users\suning\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-08-16 17:34:11,805:WARNING: From C:\Users\suning\Desktop\New_Project\My_Work\MGNER\Multi-Grained-NER-master\detector\model\ner_model.py:210: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-08-16 17:34:14,932:INFO: Initializing tf session
+2019-08-16 17:34:15,424:INFO: Initializing ELMo
+2019-08-16 17:34:41,391:INFO: Initializing ELMo
+2019-08-16 17:35:49,311:INFO: Epoch 1 out of 100
+2019-08-16 17:38:39,620:INFO: precision 3.17 - recall 5.70 - acc 98.55 - f1 4.07
+2019-08-16 17:38:40,481:INFO: - new best score!
+2019-08-16 17:38:40,481:INFO: Epoch 2 out of 100
+2019-08-16 17:38:52,033:INFO: precision 2.22 - recall 28.48 - acc 92.82 - f1 4.12
+2019-08-16 17:38:52,927:INFO: - new best score!
+2019-08-16 17:38:52,928:INFO: Epoch 3 out of 100
+2019-08-16 17:39:02,772:INFO: precision 2.88 - recall 27.22 - acc 94.63 - f1 5.21
+2019-08-16 17:39:03,596:INFO: - new best score!
+2019-08-16 17:39:03,597:INFO: Epoch 4 out of 100
+2019-08-16 17:39:13,344:INFO: precision 1.59 - recall 67.72 - acc 77.14 - f1 3.11
+2019-08-16 17:39:13,346:INFO: Epoch 5 out of 100
